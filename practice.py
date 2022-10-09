@@ -1,6 +1,3 @@
-a = "ljes=njak"
+arr = 'asda'
 
-if('s=' in a):
-    print(a.strip("s="))
-
-print(a)
+print(arr.count('a'))
