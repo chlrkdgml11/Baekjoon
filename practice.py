@@ -1,3 +1,6 @@
-S = 'abc'
+a = "ljes=njak"
 
-print(S[0])
+if('s=' in a):
+    print(a.strip("s="))
+
+print(a)
