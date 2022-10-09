@@ -1,3 +1,4 @@
-a = 'abc'
+a = ['123']
 
-print(a.index('a'))
+a[0][0] = "2"
+print(a[0][0])
