@@ -1,2 +1,3 @@
-arr = [['19', 'Junkyu'], ['20', 'Dohyun'], ['20', 'Sunyoung']]
+arr = [1,2,3,4]
 
+print(arr.index(2))
