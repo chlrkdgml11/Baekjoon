@@ -1,3 +1,6 @@
-arr = [1,2,3,4]
+x = 10
 
-print(arr.index(2))
+def printx():
+    print(x)
+
+printx()
