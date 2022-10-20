@@ -1,6 +1,2 @@
-x = 10
-
-def printx():
-    print(x)
-
-printx()
+for i in range(11):
+    print(10 ** i)
