@@ -1,3 +1,2 @@
-dict = dict(map(int, input().split()))
-
-print(dict)
+for i in range(5, 0, -1):
+    print(i)
