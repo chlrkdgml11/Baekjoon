@@ -1,4 +1,3 @@
-a = 1
-b = 2
+arr_x =  [160, 60, 100]
 
-print(min(a, b))
+print(max(arr_x))
