@@ -1,6 +1,3 @@
-dict = {'headgear': ['hat', 'turban'], 'eyewear': ['sunglasses']}
+a = '123'
 
-a = 'asd'
-dict['headgear'].append(a)
-
-print(dict['headgear'])
+print(a[-2])
