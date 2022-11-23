@@ -1,5 +1,2 @@
-dict = {}
+arr = [[0]*26]
 
-dict[(1, 2, 3)] = 1
-
-print(dict)
