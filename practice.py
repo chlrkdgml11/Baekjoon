@@ -1,9 +1,22 @@
-from itertools import combinations
+import sys
 
-arr = [1, 2, 3, 4, 3]
+N, M = map(int, sys.stdin.readline().split())
 
-com_arr = list(combinations(arr, 2))
+arr = []
 
-print(com_arr[0])
+for _ in range(N):
+    arr.append(list(map(int, sys.stdin.readline().split())))
 
-print(sum(com_arr[0]))
+result = [[0 for i in range(N)] for j in range(N)]
+
+for i in range(N):
+    sum = 0
+    for j in range(N):
+        if(i == 0 and j == 0):
+            result[i][j] = arr[i][j]
+            sum = arr[i][j]
+        else:
+            result[i][j] = arr[i-1][j] + sum
+            sum = result[i][j]
+
+print(result)
