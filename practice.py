@@ -1,8 +1,5 @@
-a = []
+s = '12-34+56-78+90'
 
-b = []
+S = s.join('', '123')
 
-for i in range(10):
-    a.append('1234')
-
-print(a)
+print(S)
